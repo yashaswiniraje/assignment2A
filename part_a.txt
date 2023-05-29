@@ -1,3 +1,28 @@
+
+#############################INDEX.JS__3A__NODEJS APPLICATION STATIC WEBSITE ######################################
+COMMAND-
+npm init
+ls
+code i
+npm i express --save
+
+-----------------------------------------------
+const express= require('express');
+const app=express();
+const port=4000;
+
+app.use(express.static("public"));
+app.listen(port, ()=>{console.log(`App Started at port ${port}`)});
+
+COMMAND-npm init
+ls
+code i
+npm i express --save
+
+command-node index.js
+
+
+#############################################################AJAX_html###################################################
 <!DOCTYPE html>
 <html>
     <head>
